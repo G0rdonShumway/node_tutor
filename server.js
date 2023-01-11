@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3500
 
 app.use(logger)
 
-app.use(credentials)
+// app.use(credentials)
 
 app.use(cors(corsOptions)) //Cross Origin Resourse Sharing
 
