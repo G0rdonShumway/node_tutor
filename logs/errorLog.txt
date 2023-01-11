@@ -1,0 +1,4 @@
+10-01-2023 02:23:08	b5084d78-f07e-4d8a-a8cf-4235e16c5d62	Error Not allowed by CORS
+10-01-2023 02:23:29	0c31007d-f78c-4b01-9141-673affb25f4f	Error: Not allowed by CORS
+10-01-2023 02:23:29	47d80f3a-87f1-4624-ae9c-1548ac5aac1d	Error: Not allowed by CORS
+10-01-2023 16:13:25	d1a734c9-bc1c-48b8-9d19-d974d0deb980	ReferenceError: req is not defined
