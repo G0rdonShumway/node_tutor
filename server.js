@@ -12,6 +12,7 @@ const cookieParser = require('cookie-parser')
 const credentials = require('./middleware/credentials')
 
 const PORT = process.env.PORT || 3500
+
 app.use(logger)
 
 // app.use(credentials)
