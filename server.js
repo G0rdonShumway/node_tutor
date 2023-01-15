@@ -1,3 +1,5 @@
+
+require('dotenv').config()
 const express = require('express')
 const app = express()
 const path = require('path')
@@ -10,10 +12,9 @@ const cookieParser = require('cookie-parser')
 const credentials = require('./middleware/credentials')
 
 const PORT = process.env.PORT || 3500
-
 app.use(logger)
 
-app.use(credentials)
+// app.use(credentials)
 
 app.use(cors(corsOptions)) //Cross Origin Resourse Sharing
 

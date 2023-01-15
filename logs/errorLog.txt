@@ -2,3 +2,8 @@
 10-01-2023 02:23:29	0c31007d-f78c-4b01-9141-673affb25f4f	Error: Not allowed by CORS
 10-01-2023 02:23:29	47d80f3a-87f1-4624-ae9c-1548ac5aac1d	Error: Not allowed by CORS
 10-01-2023 16:13:25	d1a734c9-bc1c-48b8-9d19-d974d0deb980	ReferenceError: req is not defined
+11-01-2023 20:12:59	513fd0c0-b758-456e-b11f-c7d26f91080f	Error: Not allowed by CORS
+11-01-2023 20:13:40	9ab4fdbb-13d8-433a-9245-51f8a29b3571	Error: Not allowed by CORS
+11-01-2023 20:14:09	6f324742-348a-4a36-b26c-dc24ebf71178	Error: Not allowed by CORS
+11-01-2023 20:14:41	675ffdcc-dc89-45f3-8ab0-0fb1b94d4957	Error: Not allowed by CORS
+12-01-2023 07:46:43	a093f0e4-341b-40a6-b50b-2e27e7dd3a6c	SyntaxError: Unexpected token " in JSON at position 0
