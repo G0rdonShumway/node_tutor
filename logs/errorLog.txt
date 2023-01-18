@@ -7,3 +7,41 @@
 11-01-2023 20:14:09	6f324742-348a-4a36-b26c-dc24ebf71178	Error: Not allowed by CORS
 11-01-2023 20:14:41	675ffdcc-dc89-45f3-8ab0-0fb1b94d4957	Error: Not allowed by CORS
 12-01-2023 07:46:43	a093f0e4-341b-40a6-b50b-2e27e7dd3a6c	SyntaxError: Unexpected token " in JSON at position 0
+18-01-2023 08:47:27	cda13994-3f89-4c9f-a054-347ad7753cc5	ReferenceError: path is not defined
+18-01-2023 08:47:27	2d525505-ee2a-4a2a-82f6-b0925ff472fc	ReferenceError: path is not defined
+18-01-2023 08:47:31	1988a494-ec52-44ef-8acf-1dc67a241d0c	ReferenceError: path is not defined
+18-01-2023 08:47:31	a2c838ce-8e70-4a28-8875-d3f4b1858d7d	ReferenceError: path is not defined
+18-01-2023 08:49:08	82e4ea28-1078-4ab0-8efc-e5661c2dc076	ReferenceError: path is not defined
+18-01-2023 08:49:08	fe167c26-91a1-4208-8b0e-eb6ad8d00dd8	ReferenceError: path is not defined
+18-01-2023 08:50:56	aa041fee-9893-4ae7-bb79-081b69934014	Error: ENOENT: no such file or directory, stat '/workspaces/node_tutor/middleware/views/authorization.html'
+18-01-2023 08:50:56	254e8897-4cd5-4f2d-9931-b2dad008f820	Error: ENOENT: no such file or directory, stat '/workspaces/node_tutor/middleware/views/authorization.html'
+18-01-2023 08:52:08	8d18beb7-b7c3-4661-96cb-30bfa1a36a90	ReferenceError: path is not defined
+18-01-2023 08:52:08	12969ade-56ed-4a4d-af64-471a3519cbac	ReferenceError: path is not defined
+18-01-2023 08:52:22	28b45aeb-90dc-4028-a36b-bf4638f45147	TypeError: Cannot read properties of undefined (reading 'sendStatus')
+18-01-2023 08:52:23	0b91dc19-ce61-4c03-84ef-4e1c61b2f650	TypeError: Cannot read properties of undefined (reading 'sendStatus')
+18-01-2023 09:26:05	862b45d8-15fb-4f6d-9b3f-7d2214df8491	ReferenceError: path is not defined
+18-01-2023 09:26:06	24463540-aab2-4713-9736-b76992dac7c8	ReferenceError: path is not defined
+18-01-2023 10:34:40	b6a6c7af-292e-48b5-9421-96a44a7f027c	Error: Cannot set headers after they are sent to the client
+18-01-2023 10:34:41	e21c87a4-cdbe-483e-9c8e-82398ac9102a	Error: Cannot set headers after they are sent to the client
+18-01-2023 10:36:52	7ea0d936-c4a2-427f-9094-772bffebd16e	Error: Cannot set headers after they are sent to the client
+18-01-2023 10:37:04	c9b705e6-e7d0-4c2e-b72f-c37bc543d872	Error: Cannot set headers after they are sent to the client
+18-01-2023 10:38:12	9794efdc-c021-4dd4-bf7e-3d4f4fc03d9f	TypeError: res.status(...).redirect(...) is not a function
+18-01-2023 10:38:12	886433ef-f942-4693-878f-3fa06863efc0	Error: Cannot set headers after they are sent to the client
+18-01-2023 10:38:26	72ae4347-a0e1-4848-84f9-0321333f05bb	TypeError: res.status(...).redirect(...) is not a function
+18-01-2023 10:38:26	7142c15d-c8f5-4203-808e-c37e157deaba	Error: Cannot set headers after they are sent to the client
+18-01-2023 10:38:29	ac649e31-916f-411f-99b1-1cfdb538909e	TypeError: res.status(...).redirect(...) is not a function
+18-01-2023 10:38:30	3c0d1c2f-ac83-4be1-8b81-3383a6489333	Error: Cannot set headers after they are sent to the client
+18-01-2023 10:39:00	c1694c91-52aa-40af-9c82-81c3bbbcfc74	TypeError: res.status(...).redirect(...) is not a function
+18-01-2023 10:39:04	47c5ef5d-3549-44eb-a661-14b4067a32c9	TypeError: res.status(...).redirect(...) is not a function
+18-01-2023 10:39:19	ffdd21b9-bcda-418b-8c2a-997ea28c6407	TypeError: res.status(...).redirect(...) is not a function
+18-01-2023 10:39:27	5daabf01-d461-4fb5-be16-7cf4dd6ded62	TypeError: res.status(...).redirect(...) is not a function
+18-01-2023 10:39:34	15b8d4e2-1ea8-4651-9627-43df3175ff5a	TypeError: res.status(...).redirect(...) is not a function
+18-01-2023 10:39:38	415f8c0c-7602-4556-b00d-e6a3fbd24c61	TypeError: res.status(...).redirect(...) is not a function
+18-01-2023 10:40:40	d369f744-8b23-4d49-8c55-280926fb7d21	TypeError: res.status(...).redirect(...) is not a function
+18-01-2023 10:40:46	33aedd0b-9e5d-46d5-9d16-526a0f73b562	TypeError: res.status(...).redirect(...) is not a function
+18-01-2023 12:50:55	fa3d4d66-8ee5-4c05-a741-c169cb6d4c5e	Error: Not allowed by CORS
+18-01-2023 12:51:08	f232736a-d102-4371-a8a4-1e72241b1c3d	Error: Not allowed by CORS
+18-01-2023 12:51:25	00956a8b-edd5-481b-9cf3-6d0557e6a12b	Error: Not allowed by CORS
+18-01-2023 12:53:26	0c489ed4-5eb6-4be8-8337-5daf7fb34aec	Error: Not allowed by CORS
+18-01-2023 12:54:54	45b6a796-e29b-4f17-95a5-0fdc73624b75	Error: Not allowed by CORS
+18-01-2023 12:55:49	94a84e6a-70c3-484d-88ae-8e77e678ea26	Error: Not allowed by CORS

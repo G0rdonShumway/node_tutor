@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3500
 connectDB()
 app.use(logger)
 
-// app.use(credentials)
+app.use(credentials)
 
 app.use(cors(corsOptions)) //Cross Origin Resourse Sharing
 
@@ -33,6 +33,7 @@ app.use('/', express.static(path.join(__dirname, 'public')))
 
 // routes
 app.use('/', require('./routes/root'))
+app.use('/authorization', require('./routes/authorization'))
 app.use('/register', require('./routes/register'))
 app.use('/auth', require('./routes/auth'))
 app.use('/refresh', require('./routes/refresh'))
