@@ -13,10 +13,11 @@ const mongoose = require('mongoose')
 const connectDB = require('./config/dbConnection')
 const PORT = process.env.PORT || 3500
 
+mongoose.set('strictQuery', true);
 connectDB()
 app.use(logger)
 
-// app.use(credentials)
+app.use(credentials)
 
 app.use(cors(corsOptions)) //Cross Origin Resourse Sharing
 
@@ -32,12 +33,13 @@ app.use(cookieParser())
 app.use('/', express.static(path.join(__dirname, 'public')))
 
 // routes
-app.use('/', require('./routes/root'))
+app.use('/authorization', require('./routes/authorization'))
 app.use('/register', require('./routes/register'))
 app.use('/auth', require('./routes/auth'))
 app.use('/refresh', require('./routes/refresh'))
 app.use('/logout', require('./routes/logout'))
 
+app.use('/', require('./routes/root'))
 app.use(verifyJWT)
 app.use('/employees', require('./routes/api/employees'))
 

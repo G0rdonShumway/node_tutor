@@ -7,3 +7,11 @@
 11-01-2023 20:14:09	6f324742-348a-4a36-b26c-dc24ebf71178	Error: Not allowed by CORS
 11-01-2023 20:14:41	675ffdcc-dc89-45f3-8ab0-0fb1b94d4957	Error: Not allowed by CORS
 12-01-2023 07:46:43	a093f0e4-341b-40a6-b50b-2e27e7dd3a6c	SyntaxError: Unexpected token " in JSON at position 0
+18-01-2023 23:10:35	737c9a6b-04ac-4c39-82d7-885003e1f4ea	ReferenceError: authHeader is not defined
+18-01-2023 23:11:34	752fedd4-e01a-415e-9bb0-15e2cc5c0bb7	ReferenceError: authHeader is not defined
+18-01-2023 23:11:35	e5f5691b-f1a3-4294-b0da-57edb81e938d	ReferenceError: authHeader is not defined
+18-01-2023 23:13:29	4174a643-3df3-47bc-95bc-bb5f27bb0fa0	TypeError: Cannot read properties of undefined (reading 'split')
+18-01-2023 23:13:29	cee20271-affd-4fe1-b8a4-66a4eb5dea7f	TypeError: Cannot read properties of undefined (reading 'split')
+18-01-2023 23:14:01	0b90ee4d-6b6c-4df7-8b0e-cb4d93b9dd7f	TypeError: Cannot read properties of undefined (reading 'split')
+18-01-2023 23:16:50	87d4b329-255d-4fb1-9235-2db71eb1da34	TypeError: Cannot read properties of undefined (reading 'split')
+18-01-2023 23:16:50	220c1b99-83eb-468b-8faf-a3dbafd68c45	TypeError: Cannot read properties of undefined (reading 'split')
