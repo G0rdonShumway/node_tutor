@@ -1,0 +1,112 @@
+fieldset {
+    margin: 4vw 0;
+    padding: 4vw;
+    display: block;
+    border: none;
+    border: 1px solid var(--MAIN_COLOR);
+    min-width: 0;
+    background-color: #fff;
+    color: var(--MAIN_COLOR);
+}
+fieldset legend {
+    /* margin: 0 0 2vw; */
+    /* padding: 0; */
+    /* width: 100%; */
+    /* float: left; */
+    /* display: table;
+    font-size: 1.2rem; */
+    /* line-height: 140%; */
+    /* font-weight: 600; */
+    /* color: #333; */
+}
+fieldset legend + * {
+    clear: both;
+}
+body:not(:-moz-handler-blocked) fieldset {
+    display: table-cell;
+}
+/* TOGGLE STYLING */
+fieldset > div {
+    /* margin: 0 0 1.5rem; */
+    box-sizing: border-box;
+    font-size: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+fieldset > div input {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -9999px;
+}
+fieldset > div input + label {
+    margin: 0;
+    padding: 0.75rem 0;
+    width: auto;
+    flex: 1;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    border: solid 1px #ddd;
+    background-color: #fff;
+    font-size: min(4vw, 20px);
+    line-height: 140%;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    transition: border-color 0.15s ease-out, color 0.25s ease-out, background-color 0.15s ease-out, box-shadow 0.15s ease-out;
+   /* ADD THESE PROPERTIES TO SWITCH FROM AUTO WIDTH TO FULL WIDTH */
+   /* flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+  
+   /* ----- */
+}
+fieldset > div input + label:first-of-type {
+    border-radius: 3px 0 0 3px;
+    border-right: none;
+}
+fieldset > div input + label:last-of-type {
+    border-radius: 0 3px 3px 0;
+    border-left: none;
+}
+fieldset > div input:hover + label {
+    border-color: #213140;
+}
+fieldset > div input:checked + label {
+    background-color: var(--MAIN_COLOR);
+    color: #fff;
+    box-shadow: 0 0 10px rgba(102, 179, 251, .5);
+    border-color: var(--MAIN_COLOR);
+    z-index: 1;
+}
+fieldset > div input:focus + label {
+    outline: dotted 1px #ccc;
+    outline-offset: 0.45rem;
+}
+/* STYLING FOR THE STATUS HELPER TEXT FOR THE DEMO */
+#difficulty-status,
+#mode-status {
+    margin: 0;
+    margin-top: 1.5rem;
+    font-size: min(4vw, 18px);
+    line-height: 1.3;
+    font-weight: 400;
+    color: var(--MAIN_COLOR)
+}
+#difficulty-status span,
+#mode-status span {
+    font-weight: 600;
+    color: #b6985a;
+}
+#difficulty-status span:first-of-type,
+#mode-status span:first-of-type {
+    display: inline;
+}
+/* #difficulty-status span:last-of-type,
+#mode-status span:last-of-type {
+    display: none;
+} */
