@@ -1,5 +1,4 @@
-const hamburger = document.querySelector('#hamburger');
-const sidemenu = document.querySelector('#side-menu');
+
 const linkButtons = document.querySelectorAll('.link-button')
 const mainScreen = document.querySelector('#main-index')
 
@@ -7,14 +6,11 @@ const testBackButton = document.querySelector('#test-params__header img')
 const testParamHeader = document.querySelector('#test-params__header h1 span')
 
 let gameCheckedId;
-hamburger.addEventListener('click', function() {
-  hamburger.classList.toggle('hamburger__active');
-  sidemenu.classList.toggle('side-menu__active');
-});
+
 
 linkButtons.forEach(link => {
   link.addEventListener('click', function() {
-    gameChecked = link.getAttribute('data-id')
+    document.querySelector('#test-params form input[name=game]').value = link.getAttribute('data-id')
     mainScreen.style.left = '-100vw'
     testParamHeader.textContent = link.textContent
   })

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Page</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/timer.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/keyboard.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div id="header-container">
+          <div id="logo-container">
+            <div id="logo-image">
+              <img src="img/logo.png" alt="logo" />
+            </div>
+            <div id="logo-title">
+              <span>Croupier</span> <span>AssistanT</span>
+            </div>
+          </div>
+          <div id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div id="side-menu">
+        <a href="/">GO HOME</a>
+      </div>
+    </header>
+    <main id="main-test">
+      <section id="splash-screen">
+        <button id="ready-to-test">Ready</button>
+      </section>
+      <section id="test-screen">
+        <div id="timer-container">
+          <div id="timer">
+            <div id="time-remaining"></div>
+          </div>
+        </div>
+        
+        <div id="card-deck">
+            
+        </div>
+
+        <div id="keyboard-container">
+          <div id="keyboard">
+            <input class="keyboard-input" id="answer-input" disabled />
+            <button class="digit backspace"><img src="img/icons/backspace.png" alt=""></button>
+            <button class="digit">1</button>
+            <button class="digit">2</button>
+            <button class="digit">3</button>
+            <button class="digit">4</button>
+            <button class="digit">5</button>
+            <button class="digit">6</button>
+            <button class="digit">7</button>
+            <button class="digit">8</button>
+            <button class="digit">9</button>
+            <button class="digit dot">.</button>
+            <button class="digit">0</button>
+            <button class="submit">ok</button>
+          </div>
+          
+        </div>
+      </section>
+    </main>
+
+    <script src="js/hamburger.js" defer></script>
+    <script src="js/fetchGame.js" defer></script>
+    <script src="js/setTestParams.js" defer></script>
+    <script src="js/timer.js" defer></script>
+    <script src="js/card-deck.js" defer></script>
+  </body>
+</html>

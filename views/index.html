@@ -29,7 +29,9 @@
           </div>
         </div>
       </div>
-      <div id="side-menu"></div>
+      <div id="side-menu">
+        
+      </div>
     </header>
     <main id="main-index">
       <section id="test-links">
@@ -53,7 +55,8 @@
             <img src="img/icons/back-icon.png" alt="" />
             <h1>It's <span>Blackjack</span> time!</h1>
           </div>
-          <form action="/">
+          <form action="/test-page">
+            <input type="hidden" name="game" value="" />
             <fieldset>
               <legend>&nbsp;Select mode&nbsp;</legend>
               <div id="mode-toggle">
@@ -150,6 +153,8 @@
     </main>
 
     <script src="js/main.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/getTestParams.js"></script>
     <script src="js/test-links.js"></script>
   </body>
 </html>
