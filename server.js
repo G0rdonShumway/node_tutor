@@ -37,6 +37,7 @@ app.use('/go-to-mobile', require('./routes/go-to-mobile'))
 app.use(redirectMiddleware);
 // routes
 app.use('/', require('./routes/root'))
+app.use('/test-page', require('./routes/test-page'))
 app.use('/authorization', require('./routes/authorization'))
 app.use('/register', require('./routes/register'))
 app.use('/auth', require('./routes/auth'))
