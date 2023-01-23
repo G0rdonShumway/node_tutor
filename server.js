@@ -34,7 +34,7 @@ app.use(cookieParser())
 app.use('/', express.static(path.join(__dirname, 'public')))
 
 app.use('/go-to-mobile', require('./routes/go-to-mobile'))
-app.use(redirectMiddleware);
+// app.use(redirectMiddleware);
 // routes
 app.use('/', require('./routes/root'))
 app.use('/test-page', require('./routes/test-page'))

@@ -18,6 +18,8 @@ const startTimer = (timeGiven) => {
     timeLeft = initialTime - elapsedTime;
 
     if (timeLeft <= 0) {
+      timeLeft = 0
+      elapsedTime = initialTime
       timeRemaining.innerHTML = "Time's up!";
       // clearInterval(timerInterval)
       onTimeUp()
@@ -37,7 +39,6 @@ const startTimer = (timeGiven) => {
     // Update the time remaining display
     timeRemaining.innerHTML = formatTime(timeLeft);
 
-    console.log(formatTime(timeLeft), formatTime(elapsedTime));
   }, 10);
 };
 

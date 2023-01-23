@@ -17,12 +17,9 @@ linkButtons.forEach(link => {
     }, 100)
   })
 })
-document.addEventListener('click', function (e) {
-  if (e.target === testBackButton) {
-    mainScreen.style.left = '0'
-  }
-
-})
+function testBackPage() {
+  mainScreen.style.left = '0'
+}
 
 function fetchTestData(gameID) {
   let xhr = new XMLHttpRequest();

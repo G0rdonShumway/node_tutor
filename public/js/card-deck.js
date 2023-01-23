@@ -1,7 +1,7 @@
 const cardDeck = document.getElementById("card-deck");
 const cards = cardDeck.getElementsByClassName("card");
 
-let currentCard = Number(difficultyMode.split('-')[1]) - 1;
+let currentCard = Number(difficulty.split('-')[1]) - 1;
 
 // Получение следующей карточки
 function nextCard() {

@@ -19,3 +19,9 @@ difficultyTogglers.forEach(toggler => {
     difficultyStatus.innerHTML = selectedModeInfo;
   });
 })
+
+function toggleRadio(input) {
+  inputData = input.getAttribute('data-info')
+  inputName = input.getAttribute('name')
+  document.querySelector(`#${inputName}-status`).innerHTML = inputData
+} 
