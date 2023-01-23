@@ -3,49 +3,79 @@
    License: none (public domain)
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
-*, *::before, *::after {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	/* font-size: 100%; */
-	/* font: inherit; */
-	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	vertical-align: baseline;
-	user-select: none;
-	user-zoom: none;
-    box-sizing: border-box;
-	-webkit-touch-callout: none;
-	-webkit-text-size-adjust: none;
-	-webkit-user-select: none;
-	touch-action: manipulation;
+:root {
+  --MAIN_COLOR: #173f5f;
+  --SECONDARY_COLOR: #305574;
+  --ALERT_COLOR: #ed553b;
+  --ATTENTION_COLOR: #f6d55c;
+  --APPROVE_COLOR: #4caf50;
+  --HEADER_HEIGHT: min(20vw, 70px);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* font-size: 100%; */
+  /* font: inherit; */
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  vertical-align: baseline;
+  user-select: none;
+  user-zoom: none;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
-    position: fixed;
-    top: 0;
-    bottom: 0;
+  line-height: 1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  height: 100%;
+  padding: 0 4vw;
 }

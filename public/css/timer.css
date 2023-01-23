@@ -12,7 +12,7 @@
 
 #time-remaining {
   position: absolute;
-  right: 20px;
+  left: 80vw;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
@@ -20,4 +20,19 @@
   color: var(--MAIN_COLOR);
   /*   font-weight: bold; */
   /* font-family: sans-serif; */
+}
+
+#time-remaining.timeup-splash {
+  position: fixed;
+  top: 0;
+  transform: translate(0px, 0px);
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background: #fff;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
 }

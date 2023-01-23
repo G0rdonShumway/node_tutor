@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/timer.css" />
     <link rel="stylesheet" href="css/cards.css" />
     <link rel="stylesheet" href="css/keyboard.css" />
+    <link rel="stylesheet" href="css/roulette-pictures.css" />
   </head>
   <body>
     <header id="header">
@@ -36,7 +37,14 @@
     </header>
     <main id="main-test">
       <section id="splash-screen">
-        <button id="ready-to-test">Ready</button>
+        <div class="container">
+          <div id="description-container">
+            <div id="button-container">
+              <button id="not-ready-to-test">Cancel</button>
+              <button id="ready-to-test" onclick="startTest()">Ready</button>
+            </div>
+          </div>
+        </div>
       </section>
       <section id="test-screen">
         <div id="timer-container">
@@ -44,15 +52,15 @@
             <div id="time-remaining"></div>
           </div>
         </div>
-        
-        <div id="card-deck">
-            
-        </div>
+
+        <div id="card-deck"></div>
 
         <div id="keyboard-container">
           <div id="keyboard">
             <input class="keyboard-input" id="answer-input" disabled />
-            <button class="digit backspace"><img src="img/icons/backspace.png" alt=""></button>
+            <button class="digit backspace">
+              <img src="img/icons/backspace.png" alt="" />
+            </button>
             <button class="digit">1</button>
             <button class="digit">2</button>
             <button class="digit">3</button>
@@ -64,9 +72,8 @@
             <button class="digit">9</button>
             <button class="digit dot">.</button>
             <button class="digit">0</button>
-            <button class="submit">ok</button>
+            <button class="digit submit">ok</button>
           </div>
-          
         </div>
       </section>
     </main>

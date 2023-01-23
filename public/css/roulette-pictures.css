@@ -1,0 +1,319 @@
+/* #layout {
+  background: #fff;
+  padding: 20px 0px 0px 0px;
+  width: 80%;
+  margin: 0 auto;
+  height: 525px;
+  height: 335px;
+  overflow: hidden;
+  background-color: rgb(227 233 238);
+}
+
+#layout div p {
+  margin-bottom: 53px;
+  text-align: center;
+  margin-top: 10px;
+} */
+.card table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.card table td {
+  width: 86px;
+  height: 86px;
+  border: 3px solid black;
+}
+.bet {
+  border: 3px solid rgb(131, 30, 30);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: rgb(173, 50, 50);
+  color: #fff;
+  position: absolute;
+  display: block;
+  z-index: 1;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+/*---ZERO---*/
+.card table #zero-straight {
+  border: 3px solid black;
+  position: relative;
+  background-color: #9b9fd5;
+}
+span.bet.zero-straight {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#zero .bet:not(.zero-straight) {
+  right: -20px;
+}
+span.bet.zero-top-split {
+  top: 23px;
+}
+span.bet.zero-mid-split {
+  top: 108px;
+}
+span.bet.zero-bottom-split {
+  bottom: 23px;
+}
+span.bet.zero-corner {
+  top: -19px;
+}
+span.bet.zero-top-street {
+  top: 66px;
+}
+span.bet.zero-bottom-street {
+  top: 150px;
+}
+
+/*---TWO---*/
+.card table #two-straight {
+  position: relative;
+  background-color: #9b9fd5;
+}
+span.bet.two-straight {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+span.bet.two-left-split {
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+span.bet.two-right-split {
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+span.bet.two-top-split {
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+span.bet.two-bottom-split {
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+span.bet.two-street {
+  left: 50%;
+  top: -107px;
+  transform: translateX(-50%);
+}
+span.bet.two-top-street {
+  top: -20px;
+  left: -50%;
+  transform: translateX(50%);
+}
+span.bet.two-bottom-street {
+  bottom: -20px;
+  left: -50%;
+  transform: translateX(50%);
+}
+span.bet.two-top-corner {
+  top: -20px;
+  right: -50%;
+  transform: translateX(-50%);
+}
+span.bet.two-bottom-corner {
+  bottom: -20px;
+  right: -50%;
+  transform: translateX(-50%);
+}
+span.bet.two-firstfour {
+  left: -50%;
+  top: -107px;
+  transform: translateX(50%);
+}
+span.bet.two-sixline {
+  right: -50%;
+  top: -107px;
+  transform: translateX(-50%);
+}
+
+/*---THREE---*/
+.card table #three-straight {
+  position: relative;
+  background-color: #9b9fd5;
+}
+span.bet.three-straight {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+span.bet.three-left-split {
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+span.bet.three-right-split {
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+span.bet.three-bottom-split {
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+span.bet.three-street {
+  left: 50%;
+  top: -20px;
+  transform: translateX(-50%);
+}
+span.bet.three-bottom-street {
+  bottom: -20px;
+  left: -50%;
+  transform: translateX(50%);
+}
+span.bet.three-bottom-corner {
+  bottom: -20px;
+  right: -50%;
+  transform: translateX(-50%);
+}
+span.bet.three-firstfour {
+  left: -50%;
+  top: -20px;
+  transform: translateX(50%);
+}
+span.bet.three-sixline {
+  right: -50%;
+  top: -20px;
+  transform: translateX(-50%);
+}
+
+/*---SIDE COLUMN---*/
+.card table #side-straight {
+  position: relative;
+  background-color: #9b9fd5;
+}
+span.bet.side-straight {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+span.bet.side-left-split {
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+span.bet.side-right-split {
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+span.bet.side-bottom-split {
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+span.bet.side-street {
+  left: 50%;
+  top: -20px;
+  transform: translateX(-50%);
+}
+span.bet.side-bottom-left-corner {
+  bottom: -20px;
+  left: -50%;
+  transform: translateX(50%);
+}
+span.bet.side-bottom-right-corner {
+  bottom: -20px;
+  right: -50%;
+  transform: translateX(-50%);
+}
+span.bet.side-left-sixline {
+  left: -50%;
+  top: -20px;
+  transform: translateX(50%);
+}
+span.bet.side-right-sixline {
+  right: -50%;
+  top: -20px;
+  transform: translateX(-50%);
+}
+
+/*---MID COLUMN---*/
+.card table #mid-straight {
+  position: relative;
+  background-color: #9b9fd5;
+}
+span.bet.mid-straight {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+span.bet.mid-left-split {
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+span.bet.mid-right-split {
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+span.bet.mid-top-split {
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+span.bet.mid-bottom-split {
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+span.bet.mid-street {
+  left: 50%;
+  top: -107px;
+  transform: translateX(-50%);
+}
+span.bet.mid-top-left-corner {
+  top: -20px;
+  left: -50%;
+  transform: translateX(50%);
+}
+span.bet.mid-bottom-left-corner {
+  bottom: -20px;
+  left: -50%;
+  transform: translateX(50%);
+}
+span.bet.mid-top-right-corner {
+  top: -20px;
+  right: -50%;
+  transform: translateX(-50%);
+}
+span.bet.mid-bottom-right-corner {
+  bottom: -20px;
+  right: -50%;
+  transform: translateX(-50%);
+}
+span.bet.mid-left-sixline {
+  left: -50%;
+  top: -107px;
+  transform: translateX(50%);
+}
+span.bet.mid-right-sixline {
+  right: -50%;
+  top: -107px;
+  transform: translateX(-50%);
+}
+
+.card table td {
+  position: relative;
+}
+.number-label {
+  font-size: 40px;
+  position: absolute;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  line-height: 1;
+  transform: rotate(270deg) translate(85%, -30%);
+}

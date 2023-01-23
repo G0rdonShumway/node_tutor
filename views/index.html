@@ -29,9 +29,7 @@
           </div>
         </div>
       </div>
-      <div id="side-menu">
-        
-      </div>
+      <div id="side-menu"></div>
     </header>
     <main id="main-index">
       <section id="test-links">
@@ -49,107 +47,7 @@
           </div>
         </div>
       </section>
-      <section id="test-params">
-        <div class="container">
-          <div id="test-params__header">
-            <img src="img/icons/back-icon.png" alt="" />
-            <h1>It's <span>Blackjack</span> time!</h1>
-          </div>
-          <form action="/test-page">
-            <input type="hidden" name="game" value="" />
-            <fieldset>
-              <legend>&nbsp;Select mode&nbsp;</legend>
-              <div id="mode-toggle">
-                <input
-                  id="with-timer"
-                  type="radio"
-                  name="mode"
-                  data-info="You are given a certain number of bets, you must count the payouts within the given time."
-                  value="timer"
-                  checked="checked"
-                />
-                <label for="with-timer">With timer</label>
-                <input
-                  id="sandbox"
-                  type="radio"
-                  name="mode"
-                  data-info="There is no time limit, there is no fixed number of bets either. <span>Count until you get bored.</span> The result is not recorded in the leaderboard."
-                  value="sandbox"
-                />
-                <label for="sandbox">Sandbox</label>
-              </div>
-              <p id="mode-status">
-                You are given a certain number of bets, you must count the
-                payouts within the given time.
-              </p>
-            </fieldset>
-
-            <fieldset>
-              <legend>&nbsp;Select betting range and multiplicity&nbsp;</legend>
-              <div id="range-toggle">
-                <input
-                  id="low-range"
-                  type="radio"
-                  name="rangeMultiplicity"
-                  value="25-500/5"
-                  checked="checked"
-                />
-                <label for="low-range">25-500/5</label>
-                <input
-                  id="mid-range"
-                  type="radio"
-                  name="rangeMultiplicity"
-                  value="25-1000/25"
-                />
-                <label for="mid-range">25-1000/25</label>
-                <input
-                  id="high-range"
-                  type="radio"
-                  name="rangeMultiplicity"
-                  value="25-1000/5"
-                />
-                <label for="high-range">25-1000/5</label>
-              </div>
-            </fieldset>
-
-            <fieldset>
-              <legend>&nbsp;Select difficulty&nbsp;</legend>
-              <div id="difficulty-toggle">
-                <input
-                  id="difficulty-low"
-                  type="radio"
-                  name="difficultyMode"
-                  value="easy"
-                  checked="checked"
-                  data-info="You are given <span>10 bets</span>. You must count the payouts within <span>60 seconds</span>"
-                />
-                <label for="difficulty-low">Easy</label>
-                <input
-                  id="difficulty-mid"
-                  type="radio"
-                  name="difficultyMode"
-                  value="medium"
-                  data-info="You are given <span>15 bets</span>. You must count the payouts within <span>60 seconds</span>"
-                />
-                <label for="difficulty-mid">Medium</label>
-                <input
-                  id="difficulty-hard"
-                  type="radio"
-                  name="difficultyMode"
-                  value="hard"
-                  data-info="You are given <span>20 bets</span>. You must count the payouts within <span>60 seconds</span>"
-                />
-                <label for="difficulty-hard">Hard</label>
-              </div>
-              <p id="difficulty-status">
-                You are given <span>10 bets</span>. You must count the payouts
-                within <span>60 seconds</span>
-              </p>
-            </fieldset>
-            <button type="submit">START</button>
-          </form>
-        </div>
-      </section>
+      <section id="test-params"></section>
     </main>
 
     <script src="js/main.js"></script>

@@ -1,24 +1,3 @@
-
-const linkButtons = document.querySelectorAll('.link-button')
-const mainScreen = document.querySelector('#main-index')
-
-const testBackButton = document.querySelector('#test-params__header img')
-const testParamHeader = document.querySelector('#test-params__header h1 span')
-
-let gameCheckedId;
-
-
-linkButtons.forEach(link => {
-  link.addEventListener('click', function() {
-    document.querySelector('#test-params form input[name=game]').value = link.getAttribute('data-id')
-    mainScreen.style.left = '-100vw'
-    testParamHeader.textContent = link.textContent
-  })
-})
-testBackButton.addEventListener('click', function() {
-  mainScreen.style.left = '0'
-})
-
 const modeTogglers = document.querySelectorAll('#mode-toggle input[name=mode]')
 const modeStatus = document.querySelector('#mode-status')
 
