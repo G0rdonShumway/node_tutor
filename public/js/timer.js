@@ -27,7 +27,7 @@ const startTimer = (timeGiven) => {
     }
 
     // Update the width of the timer based on the remaining time
-    timer.style.width = (timeLeft / 60000) * 100 + "%";
+    timer.style.width = (timeLeft / initialTime) * 100 + "%";
 
     // Update the color of the timer based on the remaining time
     if (timeLeft < initialTime * 0.65) {
